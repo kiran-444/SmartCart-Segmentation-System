@@ -19,19 +19,18 @@ The pipeline covers preprocessing, feature engineering, PCA-based dimensionality
 ## 📁 Project Structure
 
 ```
-smart-cart-segmentation/
-│
-├── data/
-│   ├── raw/
-│   │   └── smartcart_customers.csv        # Original customer marketing dataset
-│   └── processed/
-│       └── processed_data.csv             # Cleaned, encoded, engineered dataset
-│
-├── notebooks/
-│   ├── 01_Data_preprocessing___EDA.ipynb  # EDA, feature engineering, encoding
-│   └── 02_Model.ipynb                     # PCA, K selection, clustering, profiling
-│
-└── README.md
+```
+├── 📁 data
+│   ├── 📁 processed
+│   │   └── 📄 processed_data.csv
+│   └── 📁 raw
+│       └── 📄 smartcart_customers.csv
+├── 📁 notebooks
+│   ├── 📄 01_Data_preprocessing & EDA.ipynb
+│   └── 📄 02_Model.ipynb
+├── ⚙️ .gitignore
+├── 📝 README.md
+└── 📄 requirements.txt
 ```
 
 ---
