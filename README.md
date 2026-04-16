@@ -19,7 +19,6 @@ The pipeline covers preprocessing, feature engineering, PCA-based dimensionality
 ## 📁 Project Structure
 
 ```
-```
 ├── 📁 data
 │   ├── 📁 processed
 │   │   └── 📄 processed_data.csv
